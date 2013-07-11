@@ -3,7 +3,7 @@ crackit
 About
 -----
 CrackIT is first-of-its kind tablet application in its category with facility to practice any competitive exam (Of MCQ Format). 
-Its really an outstanding way of preparing urself for any kind of exam.
+Its really an outstanding way of preparing your self for any kind of exam.
 
 It is a platform where with predefined formatted question-set. you can prepare your selft for any MCQ Based exam whether they are competitive exams like CAT, GRE, GMAT, CMAT, XAT, SNAP or entrance exams like JEE, VIT or any civil service based exam like UPSC or any school level exams and many more.
 
