@@ -1,7 +1,9 @@
 crackit
 =======
+
 About
 -----
+
 CrackIT is first-of-its kind tablet application in its category with facility to practice any competitive exam (Of MCQ Format). 
 Its really an outstanding way of preparing your self for any kind of exam.
 
@@ -15,14 +17,21 @@ Here,Students have one more reason to love their Android Tablets!
 
 Features
 --------
--Create the exam from the question paper.
 
--Choose the timeline of exam by yourself.
+- Create the exam from the question paper.
 
--Get your results and track your progress after every test you’ve attempted.
+- Choose the timeline of exam by yourself.
 
--Take timed and un-timed tests.
+- Get your results and track your progress after every test you’ve attempted.
 
--‘Featured’ question banks are handpicked by user himself to let him practise by his own level.
+- Take timed and un-timed tests.
 
--Test-taking experience has been made simpler.
+- ‘Featured’ question banks are handpicked by user himself to let him practise by his own level.
+
+- Test-taking experience has been made simpler.
+
+License
+-------
+
+Distributed under `GNU GPL Version 3
+<http://www.gnu.org/licenses/gpl-3.0.txt>`_
