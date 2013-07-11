@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_delete_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/delete"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <CheckedTextView
+        android:id="@+id/detail_dialog_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_delete_dialog"
+        android:background="@drawable/light_gray_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/detail_dialog_divider" >
+
+        <Button
+            android:id="@+id/btn_delete_dialog_yes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/yes"
+            android:background="@drawable/img_dialog_button" />
+        
+        <CheckedTextView
+        android:id="@+id/detail_dialog_divider2"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/light_gray_divider" />
+
+        <Button
+            android:id="@+id/btn_delete_dialog_no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/no"
+            android:background="@drawable/img_dialog_button" />
+    </LinearLayout>
+
+</RelativeLayout>

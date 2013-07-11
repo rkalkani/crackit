@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Rly_ListView_Result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true" >
+
+    <TextView
+        android:id="@+id/tv_result_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="33dp"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tv_result_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_result_title"
+        android:paddingBottom="2dp"
+        android:paddingLeft="33dp"
+        android:paddingTop="2dp"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#9c9c9c"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_result_right_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_result_subtitle"
+        android:layout_alignParentRight="true"
+        android:paddingRight="25dp"
+        android:text="@string/app_name"
+        android:textColor="#9c9c9c"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/cb_result_list_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_result_title" />
+
+</RelativeLayout>

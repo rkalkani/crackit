@@ -1,0 +1,72 @@
+<!--  <?xml version="1.0" encoding="utf-8"?> -->
+<questionbank>
+     <item>
+         <id>1</id>    
+         <question> Comment on the output of following code:
+                    main()
+                    {
+                        char *p = 0;
+                        *p = 'a';
+                         printf("value in pointer p is %c\n", *p);
+                    }
+         </question>
+         <ans1>It will print a</ans1>
+         <ans2>It will print 0</ans2>
+         <ans3>Compile time error</ans3>
+         <ans4>Run time error</ans4>
+         <correctans>Run time error</correctans>
+         <description>Output:
+                        $ cc pgm.c
+                        $ a.out
+                        Segmentation fault (core dumped)
+         </description>
+     </item> 
+     <item>
+         <id>2</id>    
+         <question>What is the output of this C code?
+                    main()
+                    {
+                        char *p = "Sanfoundry C-Test";
+                        p[0] = 'a';
+                        p[1] = 'b';
+                        printf("%s", p);
+                    }
+         </question>
+         <ans1>abnfoundry C-Test</ans1>
+         <ans2>Sanfoundry C-Test</ans2>
+         <ans3>Compile time error</ans3>
+         <ans4>Run time error</ans4>
+         <correctans>Run time error</correctans>
+         <description>Description_2</description>
+     </item>
+     <item>
+         <id>3</id>    
+         <question>What is the output of this C code?
+                    main()
+                    {
+                        int n = 0, m = 0;
+                        if (n > 0)
+                            if (m > 0)
+                                printf("True");
+                        else 
+                            printf("False");
+                    }
+         </question>
+         <ans1>True</ans1>
+         <ans2>False</ans2>
+         <ans3>No Output will be printed</ans3>
+         <ans4>Run Time Error</ans4>
+         <correctans>No Output will be printed</correctans>
+         <description>Description_3</description>
+     </item> 
+     <item>
+         <id>4</id>    
+         <question>Which symbol is used to make comments ?</question>
+         <ans1>//</ans1>
+         <ans2>#</ans2>
+         <ans3>!!</ans3>
+         <ans4><![CDATA[<!--]]></ans4>
+         <correctans>//</correctans>
+         <description>Description_4</description>
+     </item>      
+</questionbank>

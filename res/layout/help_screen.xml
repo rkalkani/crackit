@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/help_window_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/windowbar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:background="@drawable/dark_holo_blue" />
+    
+    <LinearLayout
+        android:id="@+id/WebViewContainer_HelpScreen"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical" >
+
+        <WebView
+            android:id="@+id/WebView_HelpScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background" />
+    </LinearLayout>
+
+</LinearLayout>

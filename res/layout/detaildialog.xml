@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <TextView
+        android:id="@+id/tv_detail_dialog_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:text="@string/detail"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#747474" />
+
+    <TextView
+        android:id="@+id/tv_detail_dialog_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="49dp"
+        android:layout_toRightOf="@+id/tv_detail_dialog_left"
+        android:text="@string/detail"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+   
+    <Button
+        android:id="@+id/btn_detail_dialog_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/detail_dialog_divider"
+        android:text="@string/ok"
+        android:background="@drawable/img_dialog_button" />
+
+    <CheckedTextView
+        android:id="@+id/detail_dialog_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_detail_dialog_right"
+        android:background="@drawable/light_gray_divider" />
+
+</RelativeLayout>

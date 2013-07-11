@@ -1,0 +1,17 @@
+<!DOCTYPE questionbank [
+
+<!ELEMENT questionbank (ids?,item+)>
+<!ELEMENT ids (mac*)>
+<!ELEMENT mac (#PCDATA)>
+<!ELEMENT item (id,question,img?,ans1,ans2,ans3,ans4,correctans,description?)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT question (#PCDATA)>
+<!ELEMENT img (#PCDATA)>
+<!ELEMENT ans1 (#PCDATA)>
+<!ELEMENT ans2 (#PCDATA)>
+<!ELEMENT ans3 (#PCDATA)>
+<!ELEMENT ans4 (#PCDATA)>
+<!ELEMENT correctans (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+
+]>
