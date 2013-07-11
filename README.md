@@ -12,3 +12,12 @@ CrackIT is solely built in such a way that user has the provision to create exam
 One can track his progress by seeing the previous results.
 CrackIT is first-of-its kind tablet application in its category with beautifully designed and pleasing interface. 
 Here,Students have one more reason to love their Android Tablets!
+
+Features
+--------
+-Create the exam from the question paper.
+-Choose the timeline of exam by yourself.
+-Get your results and track your progress after every test you’ve attempted.
+-Take timed and un-timed tests.
+-‘Featured’ question banks are handpicked by user himself to let him practise by his own level.
+-Test-taking experience has been made simpler.
