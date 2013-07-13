@@ -33,6 +33,5 @@ Features
 License
 -------
 
-Distributed under GNU GPL Version 3`
-<http://www.gnu.org/licenses/gpl-3.0.txt>`
+Distributed under `GNU GPL Version 3<http://www.gnu.org/licenses/gpl-3.0.txt>`
 
