@@ -1,0 +1,105 @@
+<html>
+	<head>
+		<style>
+			.back	{
+				margin-bottom:15px;
+				margin-left:15px;
+				//position:absolute;
+			}
+			h2	{
+				color:33b5e5;
+				font-family:verdana;
+			}
+			h4	{
+				color:#FE9A2E;
+				//font-family:forte;
+				margin-left:75px;
+			}
+			.image	{
+				
+				margin-bottom:15px;
+				margin-left:100px;
+			}
+			.space	{
+				margin-bottom:10px;
+			}
+			.color {
+				 color:#2E2EFE;
+			}
+			ABC{
+				color:red;
+			}
+			file	{
+				margin-left:20px;
+				color:blue;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="help_inner.html">
+			<img src="img_back_normal.png" class="back" width=50 height=50>
+		</a>
+		<h2>
+			This guide will help you in Validate Question Set.
+		</h2>
+		<ul>
+			<li class="space">
+				For validate your xml include following dtd information  
+				<pre class="color">
+&lt;!DOCTYPE questionbank [
+
+&lt;!ELEMENT questionbank (item+)&gt;
+&lt;!ELEMENT item (id,question,ans1,ans2,ans3,ans4,correctans,description?)&gt;
+&lt;!ELEMENT id (#PCDATA)&gt;
+&lt;!ELEMENT question (#PCDATA)&gt;
+&lt;!ELEMENT ans1 (#PCDATA)&gt;
+&lt;!ELEMENT ans2 (#PCDATA)&gt;
+&lt;!ELEMENT ans3 (#PCDATA)&gt;
+&lt;!ELEMENT ans4 (#PCDATA)&gt;
+&lt;!ELEMENT correctans (#PCDATA)&gt;
+&lt;!ELEMENT description (#PCDATA)&gt;
+
+]&gt;				
+				</pre>
+				
+				<p> Between
+				<pre class="color">
+&lt;!--  &lt;?xml version="1.0" encoding="utf-8"?&gt; --&gt;
+</pre>
+<p> and </p>
+			<pre class="color">
+&lt;questionbank&gt;
+				</pre>
+			</li>
+			
+			<li class="space"> <p> Final Xml will look like </p>
+			<pre class="color">
+&lt;!--  &lt;?xml version="1.0" encoding="utf-8"?&gt; --&gt;
+
+&lt;!DOCTYPE questionbank [
+
+&lt;!ELEMENT questionbank (item+)&gt;
+&lt;!ELEMENT item (id,question,ans1,ans2,ans3,ans4,correctans,description?)&gt;
+&lt;!ELEMENT id (#PCDATA)&gt;
+&lt;!ELEMENT question (#PCDATA)&gt;
+&lt;!ELEMENT ans1 (#PCDATA)&gt;
+&lt;!ELEMENT ans2 (#PCDATA)&gt;
+&lt;!ELEMENT ans3 (#PCDATA)&gt;
+&lt;!ELEMENT ans4 (#PCDATA)&gt;
+&lt;!ELEMENT correctans (#PCDATA)&gt;
+&lt;!ELEMENT description (#PCDATA)&gt;
+
+]&gt;	
+
+&lt;questionbank&gt;
+
+		&lt;!-- all questions --&gt;
+
+&lt;/questionbank&gt;
+			</pre>
+</li>
+<li class="space">
+	<p> Go to <pre class="color"> http://www.xmlvalidation.com/ </pre> site or any relevalant and validate question set. </p> 
+</li>			
+	</body>
+</html>

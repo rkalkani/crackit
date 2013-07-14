@@ -1,0 +1,107 @@
+<html>
+	<head>
+		<style>
+			.back	{
+				margin-bottom:15px;
+				margin-left:15px;
+				//position:absolute;
+			}
+			h2	{
+				color:33b5e5;
+				font-family:verdana;
+			}
+			h4	{
+				color:#FE9A2E;
+				//font-family:forte;
+				margin-left:75px;
+			}
+			.image	{
+				
+				margin-bottom:15px;
+				margin-left:100px;
+			}
+			.space	{
+				margin-bottom:10px;
+			}
+			.color {
+				 color:#2E2EFE;
+			}
+			ABC{
+				color:red;
+			}
+			file	{
+				margin-left:20px;
+				color:blue;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="help_inner.html">
+			<img src="img_back_normal.png" class="back" width=50 height=50>
+		</a>
+		<h2>
+			This guide will help you in making Question Set.
+		</h2>
+		<ul>
+			<li class="space">
+				Open any text editor i.e. Notepad, XML editor.
+			</li>
+			<li class="space">
+				Copy Below code in Notepad if you are making new question set (Please do not put this line if you are modifying the current one)<br>
+				<pre class="color">
+&lt;!--  &lt;?xml version="1.0" encoding="utf-8"?&gt; --&gt;<br>
+&lt;questionbank&gt;
+				</pre>
+			</li>
+			<li class="space">
+				Then Copy below content just after above line.<br>
+				<pre class="color">
+  &lt;item&gt;<br>
+    &lt;id&gt;<ABC>Question Number</ABC>&lt;/id&gt;    <br>
+    &lt;question&gt;&lt;![CDATA[<ABC>Put Your Question here</ABC>]]&gt;&lt;/question&gt;<br>
+    &lt;ans1&gt;&lt;![CDATA[<ABC>Put Your Option 1</ABC>]]&gt;&lt;/ans1&gt;<br>
+    &lt;ans2&gt;&lt;![CDATA[<ABC>Put Your Option 2</ABC>]]&gt;&lt;/ans2&gt;<br>
+    &lt;ans3&gt;&lt;![CDATA[<ABC>Put Your Option 3</ABC>]]&gt;&lt;/ans3&gt;<br>
+    &lt;ans4&gt;&lt;![CDATA[<ABC>Put Your Option 4</ABC>]]&gt;&lt;/ans4&gt;<br>
+    &lt;correctans&gt;&lt;![CDATA[<ABC>Put Your Correct Answer here</ABC>]]&gt;&lt;/correctans&gt;<br>
+    &lt;description&gt;&lt;![CDATA[<ABC>Put Your Question Description here</ABC>]]&gt;&lt;/description&gt;<br>
+  &lt;/item&gt;<br>
+				</pre>
+			</li>
+			<li>
+				Now to close the root-tag, put this code at the last. <br>
+<pre class="color">&lt;/questionbank&gt;</pre>
+			</li>
+			<li>
+				Then save document in this format : <br>
+				<file>Filename</file>.<ABC>xml</ABC><br>
+			</li>
+			<li class="space">
+				Example xml file content for individual single question : <br>
+					<pre class="color">
+&lt;!--  &lt;?xml version="1.0" encoding="utf-8"?&gt; --&gt;<br>
+&lt;questionbank&gt;</pre>
+					<pre class="color">
+  &lt;item&gt;<br>
+    &lt;id&gt;<ABC>1</ABC>&lt;/id&gt;    <br>
+    &lt;question&gt;&lt;![CDATA[<ABC>Which is diamond city in the world</ABC>]]&gt;&lt;/question&gt;<br>
+    &lt;ans1&gt;&lt;![CDATA[<ABC>Surat</ABC>]]&gt;&lt;/ans1&gt;<br>
+    &lt;ans2&gt;&lt;![CDATA[<ABC>New York</ABC>]]&gt;&lt;/ans2&gt;<br>
+    &lt;ans3&gt;&lt;![CDATA[<ABC>Pune</ABC>]]&gt;&lt;/ans3&gt;<br>
+    &lt;ans4&gt;&lt;![CDATA[<ABC>Jaypur</ABC>]]&gt;&lt;/ans4&gt;<br>
+    &lt;correctans&gt;&lt;![CDATA[<ABC>Surat</ABC>]]&gt;&lt;/correctans&gt;<br>
+    &lt;description&gt;&lt;![CDATA[<ABC>No Description available here</ABC>]]&gt;&lt;/description&gt;<br>
+  &lt;/item&gt;<br>
+  &lt;item&gt;<br>
+    &lt;id&gt;<ABC>2</ABC>&lt;/id&gt;    <br>
+    &lt;question&gt;&lt;![CDATA[<ABC>'OS' computer abbreviation usually means ?</ABC>]]&gt;&lt;/question&gt;<br>
+    &lt;ans1&gt;&lt;![CDATA[<ABC>Order of Significance</ABC>]]&gt;&lt;/ans1&gt;<br>
+    &lt;ans2&gt;&lt;![CDATA[<ABC>Open Software</ABC>]]&gt;&lt;/ans2&gt;<br>
+    &lt;ans3&gt;&lt;![CDATA[<ABC>Operating System</ABC>]]&gt;&lt;/ans3&gt;<br>
+    &lt;ans4&gt;&lt;![CDATA[<ABC>Optical Sensor</ABC>]]&gt;&lt;/ans4&gt;<br>
+    &lt;correctans&gt;&lt;![CDATA[<ABC>Operating System</ABC>]]&gt;&lt;/correctans&gt;<br>
+    &lt;description&gt;&lt;![CDATA[<ABC>No Description available here</ABC>]]&gt;&lt;/description&gt;<br>
+  &lt;/item&gt;<br>
+&lt;/questionbank&gt;</pre>
+	</body>
+</html>

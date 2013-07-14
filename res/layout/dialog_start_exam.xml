@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/dialog_start_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="5dip"
+        android:text="@string/press_here_to_start_exam"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@drawable/dark_holo_blue" />
+    
+    <TextView
+        android:id="@+id/dialog_start_divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:paddingTop="2dip"
+        android:paddingBottom="2dip"
+        android:layout_alignBottom="@+id/dialog_start_title"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/dark_holo_blue" />
+
+    <ImageButton
+        android:id="@+id/dialog_start_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_start_divider"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/start"
+        android:padding="5dip"
+        android:background="@null"
+        android:src="@drawable/img_start_200" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_start_play"
+        android:layout_centerHorizontal="true"
+        android:padding="5dip"
+        android:text="@string/as_soon_as_you_press_start_button_timer_will_be_started_watch_out_"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:padding="10dip"
+        android:text="@string/all_the_best"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@drawable/dark_holo_blue" />
+
+    
+
+</RelativeLayout>

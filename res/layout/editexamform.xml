@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/windowbar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:background="@drawable/dark_holo_blue" />
+
+    <ScrollView
+        android:id="@+id/escrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="40dp" >
+
+                <TableRow
+                    android:id="@+id/etableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp" >
+
+                    <TextView
+                        android:id="@+id/etextView0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:text="@string/ename" />
+
+                    <EditText
+                        android:id="@+id/et_examname1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapWords"
+                        android:maxLength="30" />
+                </TableRow>
+
+                <TextView
+                    android:id="@+id/msg_examname_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:text="@string/_max_length_is_30_character"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@drawable/gray_small_text" />
+
+                <TableRow
+                    android:id="@+id/etableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp" >
+
+                    <TextView
+                        android:id="@+id/etextView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:paddingRight="10dp"
+                        android:text="@string/type" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <RadioButton
+                            android:id="@+id/radio_limit1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="@string/timelimit" />
+
+                        <RadioButton
+                            android:id="@+id/radio_nolimit1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/notimelimit" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/etableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp" >
+
+                    <TextView
+                        android:id="@+id/etextView2"
+                        android:layout_gravity="left|center"
+                        android:paddingRight="10dp"
+                        android:text="@string/date" />
+
+                    <EditText
+                        android:id="@+id/et_date1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:inputType="date" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/etableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp" >
+
+                    <TextView
+                        android:id="@+id/etextView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:paddingRight="10dp"
+                        android:text="@string/duration_of_exam" />
+
+                    <EditText
+                        android:id="@+id/et_durationtime1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/in_minitues"
+                        android:inputType="number"
+                        android:maxLength="3" />
+                </TableRow>
+
+                <TextView
+                    android:id="@+id/msg_durationtime_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:text="@string/_time_should_between_1_to_999_for_time_limit"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@drawable/gray_small_text" />
+
+                <TableRow
+                    android:id="@+id/etableRow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp" >
+
+                    <TextView
+                        android:id="@+id/etextView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:paddingRight="10dp"
+                        android:text="@string/no_of_question" />
+
+                    <EditText
+                        android:id="@+id/et_noofquestion1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="3" />
+                </TableRow>
+
+                <TextView
+                    android:id="@+id/msg_noofquestion_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:text="@string/_questions_no_should_between_2_to_999"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@drawable/gray_small_text" />
+
+                <TableRow
+                    android:id="@+id/etableRow6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp" >
+
+                    <TextView
+                        android:id="@+id/etextView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:paddingRight="10dp"
+                        android:text="@string/question_set" />
+
+                    <TextView
+                        android:id="@+id/tv_questionset1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical" />
+
+                    <ImageButton
+                        android:id="@+id/btn_editexam_browse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:background="@null"
+                        android:src="@drawable/img_browse"
+                        android:contentDescription="@string/browse"/>
+                </TableRow>
+
+                <TextView
+                    android:id="@+id/msg_browse_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:singleLine="true"
+                    android:text="@string/_xml_file_required"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@drawable/gray_small_text"
+                    android:visibility="gone" />
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/tv_editexam_uri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:visibility="invisible"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <RelativeLayout
+                android:id="@+id/ebutton1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp" >
+
+                <Button
+                    android:id="@+id/btn_reset1"
+                   android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="30dp"
+                    android:layout_toRightOf="@+id/btn_create1"
+                    android:background="@drawable/img_button"
+                    android:text="@string/reset" />
+
+                <Button
+                    android:id="@+id/btn_cancel1"
+                     android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/btn_reset1"
+                    android:background="@drawable/img_button"
+                    android:layout_marginRight="30dp"
+                    android:text="@string/cancel" />
+
+                <Button
+                    android:id="@+id/btn_create1"
+                   android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/img_button"
+                    android:text="@string/update" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

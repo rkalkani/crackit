@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    style="@style/AppBaseTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/window_bar"
+        android:padding="5dp" >
+
+        <ImageButton
+            android:id="@+id/btn_examscreen_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="25dp"
+            android:background="@null"
+            android:contentDescription="@string/next"
+            android:src="@drawable/img_next" />
+
+        <ImageButton
+            android:id="@+id/btn_examscreen_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="25dp"
+            android:layout_toLeftOf="@+id/btn_examscreen_next"
+            android:background="@null"
+            android:contentDescription="@string/done"
+            android:src="@drawable/img_done" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <TextView
+                android:id="@+id/tv_examscreen_questionno"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:paddingLeft="10dp"
+                android:text="@string/_000_of_000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_examscreen_time"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/_000_00"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_examscreen_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="25dp"
+            android:background="@null"
+            android:contentDescription="@string/previous"
+            android:src="@drawable/img_back" />
+
+        <ImageButton
+            android:id="@+id/btn_examscreen_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/btn_examscreen_previous"
+            android:background="@null"
+            android:contentDescription="@string/reset"
+            android:src="@drawable/img_refresh" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:background="@drawable/dark_holo_blue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.07"
+            android:background="@drawable/vertical_menu" >
+
+            <ImageButton
+                android:id="@+id/ibtn_examscreen_flag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="26dp"
+                android:background="@null"
+                android:contentDescription="@string/flag"
+                android:src="@drawable/img_flag_white" />
+
+            <ImageButton
+                android:id="@+id/ibtn_examscreen_flagfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ibtn_examscreen_flag"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="26dp"
+                android:background="@null" 
+                android:contentDescription="@string/flag"
+                android:src="@drawable/img_flagfile_normal" />
+
+            <ImageButton
+                android:id="@+id/ibtn_examscreen_skipfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ibtn_examscreen_flagfile"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="26dp"
+                android:background="@null"
+                android:contentDescription="@string/skip"
+                android:src="@drawable/img_skipfile_normal" />
+
+            <ImageButton
+                android:id="@+id/ibtn_examscreen_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="25dp"
+                android:background="@null"
+                android:src="@drawable/img_detail2" android:contentDescription="@string/detail"/>
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/sv_examscreen1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="159dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_examscreen_question"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp"
+                    android:text="@string/question"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <LinearLayout
+                    android:id="@+id/rdg_examscreen1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/rbtn_examscreen_option1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onRadioButtonChecked"
+                        android:text="@string/option_1" />
+
+                    <RadioButton
+                        android:id="@+id/rbtn_examscreen_option2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onRadioButtonChecked"
+                        android:text="@string/option_2" />
+
+                    <RadioButton
+                        android:id="@+id/rbtn_examscreen_option3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onRadioButtonChecked"
+                        android:text="@string/option_3" />
+
+                    <RadioButton
+                        android:id="@+id/rbtn_examscreen_option4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onRadioButtonChecked"
+                        android:text="@string/option_4" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

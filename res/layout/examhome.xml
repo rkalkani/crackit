@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="left"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/exam_window_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/windowbar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:background="@drawable/dark_holo_blue" />
+
+    <!-- 
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_divider"
+        android:orientation="horizontal"
+        android:paddingBottom="5dip"
+        android:paddingTop="3dip" >
+
+        <ImageButton
+            android:id="@+id/ibtn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:contentDescription="@string/cancel"
+            android:paddingLeft="10dp"
+            android:paddingRight="35dp"
+            android:src="@drawable/img_cancel" />
+
+        <ImageButton
+            android:id="@+id/ibtn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/ibtn_cancel"
+            android:background="@null"
+            android:contentDescription="@string/search"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:src="@drawable/img_search" />
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/ibtn_search"
+            android:ems="10"
+            android:gravity="right"
+            android:hint="@string/search"
+            android:paddingRight="15dp" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="50dp"
+            android:text="@string/exam_list"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+    -->
+
+    <TableLayout
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="3dp"
+        android:paddingRight="10dp" >
+
+        <ListView
+            android:id="@+id/examlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:divider="@drawable/blue_divider"
+            android:dividerHeight="1dp" >
+        </ListView>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CrackIt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="splash">Crack IT</string>
+    <string name="exam">Exam</string>
+    <string name="des_newexam">new exam create button</string>
+    <string name="_new">New</string>
+    <string name="edit">Edit</string>
+    <string name="search">Search</string>
+    <string name="sort">Sort</string>
+    <string name="delete">Delete</string>
+    <string name="home">Home</string>
+    <string name="result">Result</string>
+    <string name="exam_list">Exam List</string>
+    <string name="cr_date">Created Date</string>
+    <string name="la_date">Last Attempt</string>
+    <string name="ename">Exam Name</string>
+    <string name="type">Exam Type</string>
+    <string name="date">Date</string>
+    <string name="duration_of_exam">Duration Of Exam</string>
+    <string name="no_of_question">No. Of Questions</string>
+    <string name="question_set">Question Set</string>
+    <string name="create_new_exam">Create New Exam</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset">Reset</string>
+    <string name="timelimit">Time Limit</string>
+    <string name="notimelimit">No Time Limit</string>
+    <string name="creationdate">"Creation Date "</string>
+    <string name="start">Start</string>
+    <string name="detail">Detail</string>
+    <string name="edit_exam_detail">Edit Exam Detail</string>
+    <string name="update">Update</string>
+    <string name="exam_detail">Exam Detail</string>
+    <string name="start_exam">Start Exam</string>
+    <string name="status">status</string>
+    <string name="question_no">Question No</string>
+    <string name="question">Question</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_4">Option 4</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_2">Option 2</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="open">Open</string>
+    <string name="ok">OK</string>
+    <string name="result_list">Result List</string>
+    <string name="_000_of_000">000 of 000</string>
+    <string name="_000_00">000:00</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="browse">Browse</string>
+    <string name="xml_file_selector">XML File Selector</string>
+    <string name="normal">normal</string>
+    <string name="_max_length_is_30_character">*Max Length is 30 character</string>
+    <string name="_time_should_between_1_to_999_for_time_limit">*Time should between 1 to 999 minutes for time limit</string>
+    <string name="_questions_no_should_between_2_to_999">*Total Questions in exam should between 2 to 999</string>
+    <string name="_xml_file_required">*Xml file required</string>
+    <string name="invalid_value">*Invalid value</string>
+    <string name="in_minitues">In minutes</string>
+    <string name="menu">Menu</string>
+    <string name="_">" "</string>
+    <string name="add">Add</string>
+    <string name="flag">Flag</string>
+    <string name="done">Done</string>
+    <string name="previous">Previous</string>
+    <string name="help">Help</string>
+    <string name="skip">Skip</string>
+    <string-array name="quotes">
+        <item>“Action is the foundational key to all success.” –Pablo Picasso</item>
+        <item>“Failure is success if we learn from it.” –Malcolm Forbes</item>
+        <item>“Live like no one is watching” -Robert Nicholson</item>
+        <item>“Success is falling nine times and getting up ten.” -Jon Bon Jovi</item>
+        <item>“Success consists of going from failure to failure without loss of enthusiasm.” -Winston</item>
+        <item>“The toughest thing about success is that you’ve got to keep on being a success.” -Irving Berlin</item>
+        <item>“We are what we repeatedly do. Excellence, therefore, is not an act but a habit.” -Aristotle</item>
+        <item>“Life is either a daring adventure or nothing.” -Helen Keller</item>
+        <item>“Knowing is not enough; we must apply. Willing is not enough; we must do.” -Johann Wolfgang von Goethe</item>
+        <item>“It is better to be alone than in bad company.” -George Washington</item>
+        <item>“It always seems impossible until its done.” -Nelson Mandela</item>
+        <item>“He who knows nothing is closer to the truth than he whose minds is filled with falsehoods and errors.” -Thomas Jefferson</item>
+        <item>“If you’re not prepared to be wrong, you’ll never come up with anything original.” -Sir Ken Robinson</item>
+        <item>“The only place where success comes before work is in the dictionary.” -Vidal Sassoon</item>
+        <item>“Every single person I know who is successful at what they do is successful because they love doing it.” -Joe Penna</item>
+        <item>“Being realistic is the most commonly traveled road to mediocrity.” -Will Smith</item>
+        <item>“Whenever an individual or a business decides that success has been attained, progress stops.” -Thomas J. Watson</item>
+        <item>“To be successful, you have to have your heart in your business, and your business in your heart.” -Thomas J. Watson</item>
+        <item>“If hard work is the key to success, most people would rather pick the lock.” -Claude McDonald</item>
+        <item>“The road to success is always under construction.” -Arnold Palmer</item>
+        <item>“Anything the mind can conceive and believe, it can achieve.” -Napoleon Hill</item>
+        <item>“Whether you think you can or you can’t, you’re right.” -Henry Ford</item>
+        <item>“Try not to become a man of success, but rather try to become a man of value.” -Albert Einstein</item>
+        <item>“A man is but the product of his thoughts what he thinks, he becomes.” -Mahatma Gandhi</item>
+        <item>“Action expresses priorities.” -Mahatma Gandi</item>
+        <item>“We must use time wisely and forever realize that the time is always ripe to do right.” -Nelson Mandela</item>
+        <item>“The mind is not a vessel to be filled but a fire to be ignited.” -Plutarch</item>
+        <item>“The beautiful thing about learning is that no one can take it away from you.” -B.B. King</item>
+        <item>“‎Formal education will make you a living; self-education will make you a fortune.” -Jim Rohn</item>
+        <item>“We make a living by what we get, we make a life  by what we give.” -Winston Churchill</item>
+        <item>“Success consists of going from failure to failure without loss of enthusiasm.” –Winston Churchill</item>
+        <item>“The problem is not the problem. The problem is your attitude about the problem.” -Captain Jack Sparrow</item>
+        <item>“Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.” –Thomas A. Edison</item>
+        <item>“There are far, far better things ahead than any we leave behind.” –C.S. Lewis</item>
+        <item>“Live as if you were to die tomorrow. Learn as if you were to live forever.” –Gandhi</item>
+        <item>“Do not wait to strike till the iron is hot; but make it hot by striking.” –William Butler Yeats</item>
+        <item>“Learning is not a spectator sport”. –D. Blocher</item>
+        <item>“It is wiser to find out than to suppose”. –Mark Twain</item>
+        <item>“Learn from yesterday, live for today, hope for tomorrow.” –Albert Einstein</item>
+        <item>“The best way to predict your future is to create it.” –Abraham Lincoln</item>
+        <item>“Even if you’re on the right track, you’ll get run over if you just sit there”. -Will Rogers</item>
+        <item>“Be a student as long as you still have something to learn, and this will mean all your life”. –Henry L. Doherty</item>
+        <item>“The best revenge is massive success.” –Frank Sinatra</item>
+        <item>“Forget all the reasons it won’t work and believe the one reason that it will.”</item>
+        <item>“The biggest failure you can have in life is making the mistake of never trying at all.”</item>
+        <item>“If you believe everything you read, better not read.”</item>
+        <item>“Books can be dangerous. The best ones should be labeled ‘This could change your life.”</item>
+        <item>“It’s not that I’m so smart, it’s just that I stay with problems longer.” -Albert Einstein</item>
+        <item>“Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.” -Albert Einstein</item>
+        <item>“If you can’t make a mistake, you can’t make anything.” -Marva Collins</item>
+        <item>“Teachers open the door. You enter by yourself.”</item>
+        <item>“Learn to see things backwards, inside out and upside down.” -John Heider</item>
+        <item>“When the sun is shining I can do anything; no mountain is too high, no trouble to difficult to overcome.” -Wilma Rudolph</item>
+        <item>“Reach high, for stars lie hidden in your soul. Dream deep, for every dream precedes the goal.” -Ralph Vaull Starr</item>
+        <item>“The most important educational goal is learning to learn.” -Luis Alberto Machado</item>
+        <item>“One sure test of education is USEFULNESS. Another test: making a living and a life.”</item>
+        <item>“A drop of ink makes thousands think. If you’ve learned to read, you can learn to succeed.”</item>
+        <item>“Learn all you can from old people. They’ve gone over the road you must travel.”</item>
+        <item>“No one stops growing until he stops asking questions, either of others or of himself.”</item>
+        <item>“Minds are like parachutes – they only function when open.”</item>
+        <item>“It takes a smart man to recognize a wise man and a smarter one to learn from him.”</item>
+        <item>“Optimism is the faith that leads to achievement, nothing can be done without hope and confidence.” -Helen Keller</item>
+        <item>“If the only tool you have is a hammer, you tend to see every problem as a nail.” -Abraham Maslow</item>
+        <item>“All the world is a laboratory to the inquiring mind.” -Martin H. Fischer</item>
+        <item>“Comfort is no test of truth; on the contrary, truth is often far from being comfortable.” -Swami Vivekanand</item>
+        <item>“You cannot believe in God until you believe in yourself.” -Swami Vivekanand</item>
+    </string-array>
+        <string name="developers">Developers</string>
+        <string name="vote_of_thanks">Vote of thanks</string>
+        <string name="answered_questions_n_skiped_questions_n_flag_set_questions">Answered Questions\nUnanswered Questions\nFlag set Questions</string>
+        <string name="back_screen">back_screen</string>
+        <string name="as_soon_as_you_press_start_button_timer_will_be_started_watch_out_">As soon as you press start button, timer will be started. Watch out..!!</string>
+        <string name="all_the_best">All the best</string>
+        <string name="press_here_to_start_exam">Press here to start exam</string>
+
+</resources>

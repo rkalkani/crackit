@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="background">#ffffff</drawable>
+    <drawable name="window_bar">#ffffff</drawable>
+    <drawable name="window_title">#0099cc</drawable>
+    <drawable name="vertical_menu">#e0e0e0</drawable>
+    <drawable name="holo_blue">#33b5e5</drawable>
+    <drawable name="dark_holo_blue">#0099cc</drawable>
+    <drawable name="dark_holo_red">#cc0000</drawable>
+    <drawable name="light_gray_divider">#d8d8d8</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="light_gray">#555555</drawable>
+    <drawable name="gray_small_text">#aaaaaa</drawable>
+    <drawable name="error_color">#cc0000</drawable>
+    <drawable name="red_divider">#f9caca</drawable>
+    <drawable name="blue_divider">#bee3f1</drawable>
+    <drawable name="quotes">#555555</drawable>
+    <drawable name="quotes_background">#e0e0e0</drawable>
+    <drawable name="light_blue">#c1e8f7</drawable>
+</resources>
