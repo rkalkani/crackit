@@ -41,6 +41,27 @@ Importing **CrackIT** as an `eclipse <http://www.eclipse.org/>`_ project
   on eclipse to work on Android code. Please visit `Installing ADT
   <http://developer.android.com/sdk/installing/installing-adt.html>`_
   for detail installation instructions.
+  
+ 
+After cloning the require branch, start eclipse
+
+- go-to ``File`` menu -> ``Import``
+- from the ``Import`` dialog box, select ``Android``
+- from ``Android`` section, select ``Existing Android Code Into
+  Workspace`` and click ``Next`` button.
+- you will be taken to ``Import Projects`` dialog box, click ``Browse``
+  button and select the cloned repository
+  
+Documentation
+-------------
+
+For CrackIT User Manual or Application Guide, please click on link
+`https://app.box.com/s/7rfz0120odhsgfzdz22w/1/1009549881
+<https://app.box.com/s/7rfz0120odhsgfzdz22w/1/1009549881>`_
+
+For Video Tutorial click on Following Link
+`https://www.youtube.com/playlist?list=PLkGg4SquclakL9709YBChiAuD9PL1d2Sa
+<https://www.youtube.com/playlist?list=PLkGg4SquclakL9709YBChiAuD9PL1d2Sa>`_
 
 License
 -------
