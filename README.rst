@@ -73,9 +73,9 @@ And you can make question set for that please read manual also given at below li
 `https://app.box.com/s/7rfz0120odhsgfzdz22w
 <https://app.box.com/s/7rfz0120odhsgfzdz22w>`_
 
-Complied file
+Compiled file
 ~~~~~~~~~~~~~~
-Apk file is avilabe at following link
+Apk file is available at following link
 
 `https://app.box.com/s/7rfz0120odhsgfzdz22w/1/1010268289
 <https://app.box.com/s/7rfz0120odhsgfzdz22w/1/1010268289>`_
