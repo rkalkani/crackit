@@ -67,7 +67,7 @@ For Video Tutorial click on Following Link
 
 Other Resources
 ~~~~~~~~~~~~~~~~~
-For CrackIT You need different question set sample question set is given on below link
+In CrackIT to give exam. You need different question sets sample question set is given on below link
 And you can make question set for that please read manual also given at below link
 
 `https://app.box.com/s/7rfz0120odhsgfzdz22w
