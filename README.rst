@@ -65,6 +65,23 @@ For Video Tutorial click on Following Link
 `https://www.youtube.com/playlist?list=PLkGg4SquclakL9709YBChiAuD9PL1d2Sa
 <https://www.youtube.com/playlist?list=PLkGg4SquclakL9709YBChiAuD9PL1d2Sa>`_
 
+Other Resources
+~~~~~~~~~~~~~~~~~
+For CrackIT You need different question set sample question set is given on below link
+And you can make question set for that please read manual also given at below link
+
+`https://app.box.com/s/7rfz0120odhsgfzdz22w
+<https://app.box.com/s/7rfz0120odhsgfzdz22w>`_
+
+Complied file
+~~~~~~~~~~~~~~
+Apk file is avilabe at following link
+
+`https://app.box.com/s/7rfz0120odhsgfzdz22w/1/1010268289
+<https://app.box.com/s/7rfz0120odhsgfzdz22w/1/1010268289>`_
+
+
+
 License
 -------
 
