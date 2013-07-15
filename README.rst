@@ -30,6 +30,18 @@ Features
 
 - Test-taking experience has been made simpler.
 
+Importing **CrackIT** as an `eclipse <http://www.eclipse.org/>`_ project
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ 
+- For setting up Android SDK and AVD, please visit this `link
+  <http://developer.android.com/sdk/installing/index.html>`_
+- You need to configure `ADT
+  <http://developer.android.com/tools/sdk/eclipse-adt.html>`_ plugin
+  on eclipse to work on Android code. Please visit `Installing ADT
+  <http://developer.android.com/sdk/installing/installing-adt.html>`_
+  for detail installation instructions.
+
 License
 -------
 
