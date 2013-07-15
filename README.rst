@@ -56,10 +56,12 @@ Documentation
 -------------
 
 For CrackIT User Manual or Application Guide, please click on link
+
 `https://app.box.com/s/7rfz0120odhsgfzdz22w/1/1009549881
 <https://app.box.com/s/7rfz0120odhsgfzdz22w/1/1009549881>`_
 
 For Video Tutorial click on Following Link
+
 `https://www.youtube.com/playlist?list=PLkGg4SquclakL9709YBChiAuD9PL1d2Sa
 <https://www.youtube.com/playlist?list=PLkGg4SquclakL9709YBChiAuD9PL1d2Sa>`_
 
